@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thẻ ul, ol</title>
+  </head>
+  <body>
+
+    <h1>Danh sách có thứ tự</h1>
+    <ol>
+      <li>Thành phố Hồ Chí Minh</li>
+      <li>Hà Nội</li>
+      <li>Đà Nẵng</li>
+    </ol>
+
+    <h1>Danh sách không có thứ tự</h1>
+    <ul>
+      <li>Thành phố Hồ Chí Minh</li>
+      <li>Hà Nội</li>
+      <li>Đà Nẵng</li>
+    </ul>
+
+    <h1>Danh sách lồng nhau</h1>
+    <ul>
+      <li>
+        Thành phố Hồ Chí Minh
+        <ul>
+          <li>Quận 1</li>
+          <li>Quận 2</li>
+        </ul>
+      </li>
+      <li>
+        Hà Nội
+        <ul>
+          <li>Quận Hoàn Kiếm</li>
+          <li>Quận Đống Đa</li>
+        </ul>
+      </li>
+      <li>
+        Đà Nẵng
+        <ol>
+          <li>Quận Hải Châu
+            <ol reversed type="i">
+                <li>Phường Thạch Thang</li>
+                <li>Phường Hải Châu 1</li>
+            </ol>
+          </li>
+          <li>Quận Thanh Khê</li>
+        </ol>
+      </li>
+    </ul>
+
+    <h1>Danh sách lồng nhau có thứ tự</h1>
+    <ol>
+      <li>
+        Thành phố Hồ Chí Minh
+        <ol type="A">
+          <li>Quận 1</li>
+          <li>Quận 2</li>
+        </ol>
+      </li>
+      <li>
+        Hà Nội
+        <ol type="I">
+          <li>Quận Hoàn Kiếm</li>
+          <li>Quận Đống Đa</li>
+        </ol>
+      </li>
+      <li>
+        Đà Nẵng
+        <ol>
+          <li>Quận Hải Châu</li>
+          <li>Quận Thanh Khê</li>
+        </ol>
+      </li>
+    </ol>
+
+    <h1>Danh sách có thứ tự và không có thứ tự</h1>
+    <ol>
+      <li>Thành phố Hồ Chí Minh</li>
+      <li>Hà Nội</li>
+      <li>Đà Nẵng</li>
+      <ul>
+        <li>Quận 1</li>
+        <li>Quận 2</li> 
+        
+        <li>Quận Hoàn Kiếm</li>
+        <li>Quận Đống Đa</li>   
+
+        <li>Quận Hải Châu</li>
+        <li>Quận Thanh Khê</li>
+        </ul>
+    </ol>
+
+    <h1>Danh sách có thứ tự và không có thứ tự lồng nhau</h1>
+    <ol>
+      <li>Thành phố Hồ Chí Minh</li>
+      <ul>
+        <li>Quận 1</li>
+        <li>Quận 2</li>
+      </ul>
+      <li>Hà Nội</li>
+      <ul>
+        <li>Quận Hoàn Kiếm</li>
+        <li>Quận Đống Đa</li>
+      </ul>
+      <li>Đà Nẵng</li>
+      <ul>
+        <li>Quận Hải Châu</li>
+        <li>Quận Thanh Khê</li>
+      </ul>
+    </ol>
+  </body>
+</html>
